@@ -1,0 +1,5 @@
+This project is for research program:
+	"Object Detection with Deep Q-Network Agents"
+
+Abstract:
+	Object detection can be interpreted as the task of searching for optimal regions in visual space. Most existing methods are one pass sampling process, which are not the usual way we handle search and optimization problems. In this paper, we train closed-loop deep reinforcement learning agents to localize objects starting from random regions without any prior knowledge. In details, spatial relationship of different objects or same objects’ components can serve as valuable visual cues to localize targets. We train a deep Q-network as pixels-to-action agent to localize objects, along with automatic discovery of visual cues through reward stimuli. To localize multi-class objects, simply train multiple deep Q-network agents. Given query images and random starting regions, the agent adjusts detection region step by step until reaching optimal object region or giving up with background region. An extra CNN classifier is trained to filter background regions.
